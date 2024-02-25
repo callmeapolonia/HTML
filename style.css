@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+header {
+    background-color: rgba(1, 1, 5, 0.699);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+a{
+    text-decoration-line: ;
+}
+.presentacion {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.presentacion h1{
+font-size: 48px;
+color: rgba(233, 18, 18, 0.87);
+}
+
+header ul{
+    font-size: 16px;
+    color: rgb(230, 224, 224);
+    font-family: "Kaisei HarunoUmi", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 10px;
+}
+p{font-size: 80px;
+    color: rgb(230, 24, 24);
+    font-family: "Kaisei HarunoUmi", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+img{
+    width: 300px;
+}
+
+header ul li{
+    margin: 10px;
+}
+
+h1 {
+    font-size: 34px;
+    color: rgb(228, 10, 10);
+    font-family: "Kaisei HarunoUmi", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2{
+    font-size: 30px;
+    color: rgba(230, 12, 12, 0.89);
+    font-family: "Kaisei HarunoUmi", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p{
+font-size: 20px;
+color: rgb(233, 222, 222);
+font-family: "Kaisei HarunoUmi", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.contenedor0{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgba(1, 1, 5, 0.699);
+
+}
+.contenedor0 h1{
+    font-size: 30px;
+    color: rgba(204, 15, 31, 0.945);
+    font-family: "Kaisei HarunoUmi", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.contenedor0 p{
+    font-size: 28px;
+color: rgb(231, 224, 224);
+font-family: "Kaisei HarunoUmi", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgba(1, 1, 5, 0.699);
+}
+
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.caja p {
+    font-size: 20px;
+    font-family: "Kaisei HarunoUmi", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.contenedor2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgba(1, 1, 5, 0.699);
+}
+
+.caja2{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;  
+}
+.caja2 p {
+    font-size: 20px;
+    font-family: "Kaisei HarunoUmi", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.contenedor3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgba(1, 1, 5, 0.699);
+
+}
+.contenedor3 iframe {
+    padding: 10px;
+    margin: 10px;
+}
+.contenedor3 h1{
+    font-size: 30px;
+    color: rgba(233, 233, 243, 0.836);
+    font-family: "Kaisei HarunoUmi", serif;
+    font-weight: 400;
+    font-style: normal;
+     
+}
+.contenedor3 p{
+    font-size: 18px;
+    color: rgb(236, 226, 226);
+    font-family: "Kaisei HarunoUmi", serif;
+      font-weight: 400;
+      font-style: normal;
+}
+.contenedor3 img{
+    margin: 10px;
+    width: 400px;
+    height: 300px;
+}
+.contenedor4 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgba(1, 1, 5, 0.699);
+}
+.contenedor4 h1{
+    font-size: 30px;
+    color: rgba(222, 222, 235, 0.836);
+    font-family: "Kaisei HarunoUmi", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.contenedor4 p{
+    font-size: 18px;
+    color: rgb(230, 218, 218);
+    font-family: "Kaisei HarunoUmi", serif;
+      font-weight: 400;
+      font-style: normal;  
+}
+.contenedor4 iframe{
+    padding: 10px;
+    margin: 10px;
+}
+footer p{
+    font-size: 13px;
+    font-family: "Kaisei HarunoUmi", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgba(1, 1, 5, 0.699);
+}
+#nosotros{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(1, 1, 5, 0.699);
+}
+#nosotros iframe{
+    padding: 10px;
+    margin: 10px;
+}
+#presentacion iframe{
+    padding: 28px;
+    margin: 24px;
+}
+.containar iframe{
+    padding: 28px;
+    margin: 24px;
+}
+.containar img {
+    width: 200px;
+}
